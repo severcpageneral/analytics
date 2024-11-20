@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="analyt.1win-eu-west-1.altinity.cloud" uuid="fd1bda80-a0bb-46cf-a8c6-3e91823797e6">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.clickhouse.jdbc.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://analyt.1win-eu-west-1.altinity.cloud:8443/holistic</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="user_statistics@84.32.57.12" uuid="a242e062-2cf7-4e3c-8fc0-383c9dde9795">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://84.32.57.12:3306/user_statistics</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="EDWH_PROD@zg68280.eu-west-1.snowflakecomputing.com" uuid="eff7e8a1-5a79-497e-8b1b-1fb6fa087969">
+      <driver-ref>snowflake</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.snowflake.client.jdbc.SnowflakeDriver</jdbc-driver>
+      <jdbc-url>jdbc:snowflake://zg68280.eu-west-1.snowflakecomputing.com:443?warehouse=PROD_DA_CWH_XS&amp;db=EDWH_PROD&amp;role=ROLE_PROD_DA_SCH_GET_X</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="UPX" uuid="cba57af7-de5b-40bb-bf42-06ef6ff0c38b">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.clickhouse.jdbc.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://https://up-x.1win-eu-west-1.altinity.cloud:8443/</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@188.214.130.72" uuid="495daeee-5687-4957-b76a-14b55758a7c4">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://188.214.130.72:3306/getxdb</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
