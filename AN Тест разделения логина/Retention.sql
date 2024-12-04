@@ -26,5 +26,6 @@ FROM (
                     toDate(client_event_time) AS active_date
     FROM holistic.amplitude_1win
     WHERE toDate(client_event_time) >= '2024-10-23'
+    AND client_event_time <= now() -- ограничиваем временной диапазон
     ) AS ar ON toUInt64(amp.users_amp) = toUInt64(ar.user_ar)
-    SETTINGS max_execution_time = 36000000000;
+    SETTINGS max_execution_time = 3600;
