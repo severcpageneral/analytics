@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/AN Тест разделения логина/Retention.sql" dialect="ClickHouse" />
+    <file url="file://$PROJECT_DIR$/AN- Выбор стран/Выбор стран.sql" dialect="ClickHouse" />
     <file url="file://$PROJECT_DIR$/AN- Отключение провайдеров/Отключение провайдеров.sql" dialect="ClickHouse" />
+    <file url="file://$PROJECT_DIR$/AN-13564 распределение по времени первой загрузки главной страницы/ресерч домена 1win.ng.sql" dialect="ClickHouse" />
     <file url="file://$PROJECT_DIR$/AN-1824 Digitain/AN-1824 Digitain Control (view2bet, Retention) test.sql" dialect="ClickHouse" />
     <file url="file://$PROJECT_DIR$/AN-1824 Digitain/AN-1824 Digitain Control (view2bet, Retention).sql" dialect="ClickHouse" />
     <file url="file://$PROJECT_DIR$/AN-1824 Digitain/bets_analytics test.sql" dialect="ClickHouse" />
     <file url="file://$PROJECT_DIR$/AN-1824 Digitain/test.sql" dialect="ClickHouse" />
+    <file url="file://$PROJECT_DIR$/AN-4028 Сегментация по referrer/device_id по referrer.sql" dialect="ClickHouse" />
+    <file url="file://$PROJECT_DIR$/AN-4028 Сегментация по referrer/test.sql" dialect="ClickHouse" />
+    <file url="file://$PROJECT_DIR$/AN-4068 Подобрать ГЕО для теста капчи geetest/test.sql" dialect="ClickHouse" />
+    <file url="file://$PROJECT_DIR$/AN-4068 Подобрать ГЕО для теста капчи geetest/Подбираем ГЕО для теста.sql" dialect="ClickHouse" />
     <file url="file://$PROJECT_DIR$/AN-7332 выгрузки по виджету Игра недели/retention_segm_last.sql" dialect="ClickHouse" />
     <file url="file://$PROJECT_DIR$/AN-7332 выгрузки по виджету Игра недели/test.sql" dialect="ClickHouse" />
     <file url="file://$PROJECT_DIR$/AN-7709/Amplitude array get.sql" dialect="ClickHouse" />
@@ -14,6 +21,7 @@
     <file url="file://$PROJECT_DIR$/AN-7709/dep.sql" dialect="ClickHouse" />
     <file url="file://$PROJECT_DIR$/AN-7709/reserch.sql" dialect="ClickHouse" />
     <file url="file://$PROJECT_DIR$/AN-9830 Вывод крипты на кошельки/reserch.sql" dialect="ClickHouse" />
+    <file url="file://$PROJECT_DIR$/AN-9857 Воронка Нигерии/Ресерч userVSevent properties.sql" dialect="ClickHouse" />
     <file url="file://$PROJECT_DIR$/GETX/AN-7589 посчитать %casino ggr.sql" dialect="Snowflake" />
     <file url="file://$PROJECT_DIR$/GETX/UPX/AN-7872 Исследование депозитов на upx.sql" dialect="ClickHouse" />
     <file url="file://$PROJECT_DIR$/GETX/UPX/AN-8493 v2.sql" dialect="ClickHouse" />

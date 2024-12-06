@@ -14,7 +14,7 @@ SELECT
     if(arrayFirstIndex(x -> x = 'lang_load_time', event_properties.ep_key) > 0,
         toInt32(arrayElement(event_properties.ep_value, arrayFirstIndex(x -> x = 'lang_load_time', event_properties.ep_key))) / 1000,
         NULL) AS lang_load_time,
-    if(arrayFirstIndex(x -> x = 'page_load_time', event_properties.ep_key) > 0,
+    if(arrayFirstIndex(x -> x = 'page_load_time', event_properties.ep_key) > 0,holistic
         toInt32(arrayElement(event_properties.ep_value, arrayFirstIndex(x -> x = 'page_load_time', event_properties.ep_key))) / 1000,
         NULL) AS page_load_time,
     if(arrayFirstIndex(x -> x = 'token_ready_time', event_properties.ep_key) > 0,
